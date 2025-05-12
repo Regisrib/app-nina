@@ -127,3 +127,18 @@ p {
     padding: 3% 2%;
 }
 
+/* site responsivo */
+
+@media (max-width: 1028px) {
+    
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 250px;
+    }
+}
